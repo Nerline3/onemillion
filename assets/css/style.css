@@ -1,0 +1,116 @@
+
+
+/* importation de la typo */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+/*  le style général */
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.container{
+    width: 75%;
+
+}
+#en-tete{
+    background-image: url(../images/hero-image.jpg);
+    background-size: cover;
+    background-position:top;
+    color: #fff;
+}
+#en-tete h2{
+    font-size: 3em;
+    font-family: 'Roboto Slab', serif;
+    width: 70%;
+    margin: auto;
+
+}
+.btn-red{
+    background-color: #e74c3c;
+}
+.btn-red:hover{
+    background-color: #b83e30 !important;
+    color:#fff !important;
+}
+/* main */
+main h4{
+    color: #e74c3c;
+    font-family:'Roboto Slab', serif ;
+    margin: 20 px 0 10px 0;
+    font-weight: 700;
+    font-size: 22px;
+
+}
+hr{
+    margin: auto;
+    width: 120px;
+    margin-bottom: 25px;
+    color: #e74c3c;
+    background-color: #e74c3c;
+    height: 2px;
+}
+main span{
+    color: #e74c3c;
+}
+main .icone{
+    width: 90px;
+    background-color: rgb( 71,71,71);
+    color: #fff;
+    padding: 17px;
+    margin: 25 px auto;
+    border-radius: 50%;
+    font-size: 2rem;
+}
+footer{
+    background-color: #e74c3c;
+    height: 250px;
+    padding-top:80px;
+}
+/* hwo we are  */
+.team{
+    padding: 0;
+    margin: 25px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#team1{
+    background-image:url(../images/joanne.jpg);
+
+}
+#team2{
+    background-image:url(../images/gaston.jpg) ;
+
+}
+#team3{
+    background-image:url(../images/manuel.jpg);
+}
+#team4{
+    background-image:url(../images/tracy.jpg) ;
+}
+.infos{
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transition:1s;
+}
+/* le style pour le js */
+.change{
+    background-color: transparent;
+    color: #fff  !important;
+
+
+}
+.erreur{
+    border:2px solid #b83e30;
+}
+.valide {
+    border: 2px solid green;
+}
